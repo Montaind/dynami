@@ -2,6 +2,11 @@
 #include "Matrix.h"
 
 int main () {
-	Matrix* A = new Matrix(10, 10);
-	
+	int n, m;
+	std::cout << "Enter n: ";
+	std::cin >> n;
+	std::cout << "Enter m: ";
+	std::cin >> m;
+	Matrix* A = new Matrix(n, m);
+	A->Display();
 }

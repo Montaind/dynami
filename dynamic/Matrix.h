@@ -6,6 +6,7 @@ public:
 	Matrix(double n, double m);
 	Matrix();
 	~Matrix();
+	void Display();
 private:
 	void constr(int n, int m);
 	void destr(int n, int m);
