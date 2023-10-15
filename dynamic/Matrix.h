@@ -8,9 +8,9 @@ public:
 	~Matrix();
 	void Display();
 private:
+	void randome(int n, int m);
 	void constr(int n, int m);
 	void destr(int n, int m);
-	void randome(int n, int m);
 private:
 	double** A;
 	int n_;
