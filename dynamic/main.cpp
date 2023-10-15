@@ -11,6 +11,6 @@ int main () {
 	A->Display();
 	std::cout << "\n\n\n";
 	Matrix& B = *new Matrix(n, m);
-	A->Multiply(B);
+	A->Multiply(10);
 	B.Display();
 }
