@@ -5,6 +5,7 @@ class Matrix {
 public:
 	Matrix(double n, double m);
 	Matrix();
+	Matrix(Matrix& m);
 	~Matrix();
 	void Display();
 private:
