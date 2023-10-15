@@ -7,6 +7,7 @@ public:
 	Matrix();
 	~Matrix();
 	void Display();
+	void plus(Matrix& m);
 private:
 	void randome(int n, int m);
 	void constr(int n, int m);

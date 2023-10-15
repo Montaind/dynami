@@ -37,3 +37,14 @@ void Matrix::Display() {
 		std::cout << "\n";
 	}
 }
+
+void Matrix::plus(Matrix& M)
+{
+		for (int i = 0; i < n_; i++) {
+			for (int j = 0; j < m_; j++) {
+				A[i][j] += M.A[i][j];
+			}
+		}
+}
+
+

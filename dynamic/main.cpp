@@ -8,5 +8,6 @@ int main () {
 	std::cout << "Enter m: ";
 	std::cin >> m;
 	Matrix* A = new Matrix(n, m);
+	
 	A->Display();
 }
