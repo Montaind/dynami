@@ -9,4 +9,8 @@ int main () {
 	std::cin >> m;
 	Matrix* A = new Matrix(n, m);
 	A->Display();
+	std::cout << "\n\n\n";
+	Matrix& B = *new Matrix(n, m);
+	A->Multiply(B);
+	B.Display();
 }

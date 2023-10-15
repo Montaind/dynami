@@ -38,6 +38,14 @@ void Matrix::Display() {
 	}
 }
 
+void Matrix::Multiply(double n) {
+	for (int i = 0; i < n_; i++) {
+		for (int j = 0; j < m_; j++) {
+			A[i][j] *= n;
+		}
+	}
+}
+
 Matrix::Matrix(Matrix& m) {
 	n_ = m.n_;
 	m_ = m.m_;

@@ -8,6 +8,7 @@ public:
 	Matrix(Matrix& m);
 	~Matrix();
 	void Display();
+	void Multiply(double n);
 private:
 	void randome(int n, int m);
 	void constr(int n, int m);
